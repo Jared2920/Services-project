@@ -26,7 +26,7 @@ def inquirys(request):
             send_mail(
                 'Solicitud de '+ listing,
                 'Ha habido una solicitud para '+ listing +'.Inicie sesion para obtener mas informacion',
-                'correo@gmail.com',
+                'correos@gmail.com',
                 [owner_mail],
                 fail_silently=False
             )
